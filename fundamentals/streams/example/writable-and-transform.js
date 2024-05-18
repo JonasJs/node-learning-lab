@@ -1,7 +1,10 @@
 import { Readable, Transform, Writable } from "node:stream";
 
 
-// Leitura: é possivel apenas ler dados dela
+/**
+ * Classe de Leitura
+ * @description Apenas ler dados.
+ */
 class OneToHungredStream extends Readable {
   index = 1;
 
@@ -22,7 +25,10 @@ class OneToHungredStream extends Readable {
 }
 
 
-// Tranformação: Obrigatoria mente precisa ler dados de algum lugar e escrever dados para outro lugar
+/**
+ * Classe de Transformação
+ * @description Apenas ler dados e escrever dados.
+ */
 class InverseNumber extends Transform {
   _transform(chunk, encoding, callback) {
     const transformed = Number(chunk.toString()) * -1;
@@ -34,7 +40,10 @@ class InverseNumber extends Transform {
   }
 }
 
-// Escrita: Consigo apenas escrever dados para ela
+/**
+ * Classe de Escrita
+ * @description Apenas escreve dados
+ */
 class MultiplyByTenStream extends Writable {
   _write(chunk, encoding, callback) {
     console.log(Number(chunk.toString()) * 10);

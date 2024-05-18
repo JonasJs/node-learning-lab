@@ -10,7 +10,7 @@ class OneToHungredStream extends Readable {
     const i = this.index++;
 
     setTimeout(() => {
-      if (i > 100) {
+      if (i > 10) {
         this.push(null);
         return;
       } else {
@@ -26,4 +26,7 @@ fetch("http://localhost:3333", {
   method: "POST",
   body: new OneToHungredStream(),
   duplex: 'half'
-});
+}).then(res => res.text())
+.then(data => {
+  console.log(data);
+})
