@@ -2,8 +2,9 @@
 /**
  * Retorna os parametros.
  * 
- * @param {*} path 
- * @return String
+ * @param {*} path
+ * @example '/users/:id' '/users/:id?search=jonas' '/users'
+ * @return new RegExp
  */
 export function buildRoutePath(path) {
   /**
@@ -13,7 +14,11 @@ export function buildRoutePath(path) {
   const routeParametersRegex = /:([a-zA-Z]+)/g;
   const pathWithParams = path.replaceAll(routeParametersRegex, '(?<$1>[a-z0-9\-_]+)')
   
-  const pathRegex = new RegExp(`^${pathWithParams}`);
-  
+  /**
+   * Cria o grupo com as query params => tudo depois do '?'.
+   */
+  const queryParametersGroupRegex = '(?<query>\\?(.*))';
+  const pathRegex = new RegExp(`^${pathWithParams}${queryParametersGroupRegex}?$`);
+
   return pathRegex
 }
