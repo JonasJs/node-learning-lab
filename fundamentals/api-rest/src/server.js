@@ -8,9 +8,13 @@ const server = http.createServer(async (req, res) => {
   /** O middleware como um interceptador, que recebe a requisição que lida com essa requisição da melhor forma para a aplicação.*/
   await json(req, res);
 
-  const route = routes.find(route => route.method === method && route.path === url);
+  const route = routes.find(route => route.method === method && route.path.test(url));
 
   if(route){
+    const routeParams = req.url.match(route.path);
+
+    req.params = {...routeParams?.groups};
+
     return route.handler(req, res);
   }
 
