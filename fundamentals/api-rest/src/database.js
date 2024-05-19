@@ -20,9 +20,17 @@ export class Database {
     fs.writeFile(databasePath, JSON.stringify(this.#database));
   }
 
-  select(table) {
-    const data = this.#database[table] ?? [];
+  select(table, filter = null) {
+    let data = this.#database[table] ?? [];
 
+    if(typeof filter === 'object') {
+      data = data.filter(row => {
+        return Object.entries(filter).some(([key, value]) => {
+          return typeof value !== 'string' || row[key].toLowerCase().includes(value.toLowerCase());
+        });
+      })
+    }
+    
     return data;
   }
 
