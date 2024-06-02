@@ -5,12 +5,10 @@ Repositório criado visando compartilhar e registrar minha jornada de aprendizad
 
 ## Modulos
 
-- [📚 Fundamentos do Node.js](#1-fundamentos-do-nodejs)
-  - [🚀 Desafio Prático: Vanilla Node REST API](#desafio-prático-vanilla-node-rest-api)
-  - [🎓 Aprendizados](#aprendizados)
+- [📚 1. Fundamentos do Node.js](#-fundamentos-do-nodejs)
+  - [🚀 Desafio Prático:](#)
 
-
-## 📚 Fundamentos do Node.js
+## 📚 1. Fundamentos do Node.js
 
 Irei desenvolver uma API RESTful com Node.js focada nos fundamentos da tecnologia, sem frameworks ou bibliotecas externas. Aprenderemos sobre módulos internos do Node.js, especialmente HTTP e Streams, e sobre fundamentos HTTP como Requests, Responses, Headers, status codes e os diferentes tipos de parâmetros.
 
