@@ -9,11 +9,12 @@ Repositório criado visando compartilhar e registrar minha jornada de aprendizad
   - [🚀 Desafio Prático: Vanilla Node REST API](#desafio-prático-vanilla-node-rest-api)
   - [🎓 Aprendizados](#aprendizados)
 
-## 1. Fundamentos do Node.js
+
+## 📚 Fundamentos do Node.js
 
 Irei desenvolver uma API RESTful com Node.js focada nos fundamentos da tecnologia, sem frameworks ou bibliotecas externas. Aprenderemos sobre módulos internos do Node.js, especialmente HTTP e Streams, e sobre fundamentos HTTP como Requests, Responses, Headers, status codes e os diferentes tipos de parâmetros.
 
-### Desafio Prático: [Vanilla Node REST API](https://github.com/jonasjs/vanilla-node-rest-api/)
+### 🚀 Desafio Prático: [Vanilla Node REST API](https://github.com/jonasjs/vanilla-node-rest-api/)
 
 - Desenvolver uma API RESTful utilizando apenas Node.js vanilla
 - Explorar módulos internos do Node.js (HTTP, Streams)
@@ -21,7 +22,7 @@ Irei desenvolver uma API RESTful com Node.js focada nos fundamentos da tecnologi
 
 Projeto: [Vanilla Node REST API](https://github.com/jonasjs/vanilla-node-rest-api/)
 
-## Aprendizados
+### 🎓 Aprendizados
 
 [![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
 [![Streams](https://img.shields.io/badge/Streams-FFD700?style=flat)](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API)
