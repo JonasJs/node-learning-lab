@@ -7,6 +7,8 @@ Repositório criado visando compartilhar e registrar minha jornada de aprendizad
 
 - [📚 1. Fundamentos do Node.js](#-fundamentos-do-nodejs)
   - [🚀 Desafio Prático:](#)
+- [📚 2. Rotas e HTTP (API REST com Fastify, knex e Typescript)](#)
+  - [🚀 Desafio Prático:](#)
 
 ## 📚 1. Fundamentos do Node.js
 

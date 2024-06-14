@@ -1,0 +1,15 @@
+dist/
+build/
+node_modules/
+
+.env
+.env.local
+.env.*.local
+
+*.log
+
+lib-cov
+
+coverage
+
+tsd-debug.log
