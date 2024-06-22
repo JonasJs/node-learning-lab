@@ -88,7 +88,6 @@ Testes e2e (end-to-end) são testes que validam o comportamento da aplicação c
 - Eslint
 - Tsx
 - Sqlite
-- 
 - Migrations
 - REST Client (plugin vscode)
 - Vitest
