@@ -9,6 +9,7 @@
     "migrate:make": "npm run knex -- migrate:make",
     "migrate:latest": "npm run knex -- migrate:latest",
     "migrate:rollback": "npm run knex -- migrate:rollback --all",
+    "build": "tsup src --out-dir build",
     "test": "vitest"
   },
   "keywords": [],
@@ -21,6 +22,7 @@
     "@types/supertest": "^6.0.2",
     "eslint": "^8.57.0",
     "supertest": "^7.0.0",
+    "tsup": "^8.1.0",
     "typescript": "^5.4.5",
     "vitest": "^1.6.0"
   },
