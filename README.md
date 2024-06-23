@@ -49,6 +49,7 @@ Veja tudo que foi aprendido neste tópico em: [Detalhes do Projeto](https://gith
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=flat&logo=eslint&logoColor=white)](https://eslint.org/)
 [![TSX](https://img.shields.io/badge/TSX-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.npmjs.com/package/tsx)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 [![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)](https://www.sqlite.org/index.html)
 [![Migrations](https://img.shields.io/badge/Migrations-FF4500?style=flat)](https://knexjs.org/#Migrations)
 [![REST Client](https://img.shields.io/badge/REST_Client-0078D4?style=flat&logo=visual-studio-code&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
