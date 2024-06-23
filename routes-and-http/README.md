@@ -1,4 +1,3 @@
-
 # Rotas e HTTP
 
 API REST utilizando Fastify (um framework web rápido para Node.js), Knex (um Query Builder para SQL) e TypeScript (um superset do JavaScript que adiciona tipagem estática).
@@ -6,6 +5,22 @@ API REST utilizando Fastify (um framework web rápido para Node.js), Knex (um Qu
 # Sobre a Aplicação
 
 API para um aplicativo de controle de finanças.
+
+# Testar a Aplicação
+
+A API de produção está disponível no endpoint: [https://](https://). Para ver a documentação dos endpoints, acesse a [Documentação](https://github.com/JonasJs/node-learning-lab/blob/main/routes-and-http/requests/api.http) ou instale o plugin REST Client no VSCode.
+
+# Tecnologias
+
+- [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) **TypeScript**: Superset do JavaScript que adiciona tipagem estática.
+- [![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=flat&logo=eslint&logoColor=white)](https://eslint.org/) **ESLint**: Ferramenta de linting para identificar e corrigir problemas em JavaScript e TypeScript.
+- [![TSX](https://img.shields.io/badge/TSX-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.npmjs.com/package/tsx) **TSX**: Utilitário para rodar arquivos TypeScript.
+- [![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)](https://www.sqlite.org/index.html) **SQLite**: Banco de dados relacional leve que não precisa de um servidor separado.
+- [![Migrations](https://img.shields.io/badge/Migrations-FF4500?style=flat)](https://knexjs.org/#Migrations) **Migrations**: Gerenciamento da evolução da estrutura do banco de dados.
+- [![REST Client](https://img.shields.io/badge/REST_Client-0078D4?style=flat&logo=visual-studio-code&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) **REST Client (plugin VSCode)**: Plugin para documentar e testar requisições HTTP.
+- [![Vitest](https://img.shields.io/badge/Vitest-6E4C13?style=flat&logo=vitest&logoColor=white)](https://vitest.dev/) **Vitest**: Ferramenta de testes para JavaScript e TypeScript.
+- [![Tsup](https://img.shields.io/badge/Tsup-0A0A0A?style=flat&logo=esbuild&logoColor=white)](https://tsup.egoist.dev/) **Tsup**: Bundler para JavaScript e TypeScript.
+- [![Supertest](https://img.shields.io/badge/Supertest-0A0A0A?style=flat&logo=node.js&logoColor=white)](https://github.com/visionmedia/supertest) **Supertest**: Biblioteca para testar requisições HTTP.
 
 ## Requisitos Funcionais
 
@@ -90,15 +105,3 @@ Testes que validam a integração entre várias partes da aplicação, como a ca
 #### Testes e2e (end-to-end)
 
 Testes que validam o comportamento da aplicação como um todo, simulando a interação do usuário, garantindo que a aplicação funcione corretamente em todos os níveis, desde a interface até o banco de dados.
-
-# Tecnologias
-
-- **TypeScript**: Superset do JavaScript que adiciona tipagem estática.
-- **ESLint**: Ferramenta de linting para identificar e corrigir problemas em JavaScript e TypeScript.
-- **TSX**: Utilitário para rodar arquivos TypeScript.
-- **SQLite**: Banco de dados relacional leve que não precisa de um servidor separado.
-- **Migrations**: Gerenciamento da evolução da estrutura do banco de dados.
-- **REST Client (plugin VSCode)**: Plugin para documentar e testar requisições HTTP.
-- **Vitest**: Ferramenta de testes para JavaScript e TypeScript.
-- **Tsup**: Bundler para JavaScript e TypeScript.
-- **Supertest**: Biblioteca para testar requisições HTTP.

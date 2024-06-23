@@ -43,7 +43,7 @@ Desenvolver uma API RESTful utilizando Fastify, Knex e TypeScript, colocando em 
 ### 🚀 Desafio Prático: [Fastify Knex TypeScript API](#)
 
 ### 🎓 Aprendizados
-Veja tudo que foi aprendendo neste tópico em: [Detalhes do Projeto](https://github.com/jonasjs/fastify-knex-typescript-api/learning-details)
+Veja tudo que foi aprendido neste tópico em: [Detalhes do Projeto](https://github.com/JonasJs/node-learning-lab/tree/main/routes-and-http)
 
 [![Knex](https://img.shields.io/badge/Knex-000000?style=flat&logo=knex&logoColor=white)](https://knexjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
