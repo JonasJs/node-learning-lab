@@ -18,11 +18,11 @@ Content-Type: application/json
 GET {{baseUrl}}/transactions
 Accept: application/json
 
-### Buscar transação pelo ID
+### Get Transaction by id
 GET {{baseUrl}}/transactions/400d8371-816b-4bd0-a110-51317ad5dee9
 Accept: application/json
 
 
-### Buscar Resumo da conta
+### Get summary
 GET {{baseUrl}}/transactions/summary
 Accept: application/json

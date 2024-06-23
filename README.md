@@ -9,7 +9,6 @@ Repositório criado visando compartilhar e registrar minha jornada de aprendizad
   - [🚀 Desafio Prático:](#-desafio-prático-vanilla-node-rest-api)
 - [📚 2. Rotas e HTTP (API REST com Fastify, Knex, TypeScript e testes e2e)](#-2-rotas-e-http-api-rest-com-fastify-knex-typescript-e-testes-e2e)
   - [🚀 Ver detalhes e código:](https://github.com/JonasJs/node-learning-lab/tree/main/routes-and-http#rotas-e-http)
-    - [Testar Api:](#)
   - [🚀 Desafio Prático:](#-desafio-prático-fastify-knex-typescript-api)
     - [Testar Api:](#)
 
